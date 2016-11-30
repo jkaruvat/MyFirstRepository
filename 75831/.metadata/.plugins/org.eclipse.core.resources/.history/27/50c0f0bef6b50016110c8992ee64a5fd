@@ -1,0 +1,38 @@
+package com.capgemini;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+
+
+public class Test extends Thread {
+	static List<Integer> al = new CopyOnWriteArrayList<>();
+	
+	public void run(){
+		al.add(1);
+		System.out.println("Run method"+al);
+	}
+
+	public static void main(String[] args) {
+		al.add(2);
+		al.add(3);
+		Iterator<Integer> itr = al.iterator();
+		Test t = new Test();
+		Thread t1 = new Thread(t);
+		t1.start();
+		while(itr.hasNext()){
+			al.add(4);
+		}
+		
+		
+		
+	
+		
+	
+		
+		
+
+
+	}
+
+}

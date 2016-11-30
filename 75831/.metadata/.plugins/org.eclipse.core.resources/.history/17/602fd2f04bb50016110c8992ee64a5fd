@@ -1,0 +1,33 @@
+package com.capgemini;
+
+import java.util.HashMap;
+import java.util.Map;
+
+class Thread1 extends Thread{
+	
+	public void run(){
+		Map<Integer,String> map = new HashMap<Integer,String>();
+		map.put(1, "A");map.put(2, "B");map.put(3, "C");
+		System.out.println(map);
+		
+		
+	}
+	
+}
+class Thread2 extends Thread{
+	
+}
+
+public class Test {
+	
+
+	public static void main(String[] args) {
+		Thread1 t1 = new Thread1();
+		Thread1 t2 = new Thread1();
+		t1.start();
+		t2.start();
+		
+
+	}
+
+}

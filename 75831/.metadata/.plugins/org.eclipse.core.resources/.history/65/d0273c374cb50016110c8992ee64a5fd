@@ -1,0 +1,16 @@
+package com.capgemini;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+
+public class Test extends Thread {
+	static ArrayList<Integer> al = new ArrayList<>();
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

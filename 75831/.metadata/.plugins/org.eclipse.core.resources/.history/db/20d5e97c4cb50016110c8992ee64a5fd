@@ -1,0 +1,28 @@
+package com.capgemini;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+
+public class Test extends Thread {
+	static ArrayList<Integer> al = new ArrayList<>();
+	
+	public void run(){
+		al.add(1);
+		System.out.println("Run method"+al);
+	}
+
+	public static void main(String[] args) {
+		Iterator<Integer> itr = al.iterator();
+		al.add(2);
+		al.add(3);
+		
+		
+		
+		Test t = new Test();
+		t.start();
+
+
+	}
+
+}

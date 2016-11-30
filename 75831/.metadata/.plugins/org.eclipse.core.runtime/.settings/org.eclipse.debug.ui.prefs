@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives>\r\n<launchPerspective configurationType\="org.eclipse.m2e.Maven2LaunchConfigurationType" mode\="debug" perspective\="org.eclipse.jdt.ui.JavaPerspective"/>\r\n<launchPerspective configurationType\="org.eclipse.m2e.Maven2LaunchConfigurationType" mode\="run" perspective\="org.eclipse.mylyn.tasks.ui.perspectives.planning"/>\r\n<launchPerspective configurationType\="org.eclipse.m2e.Maven2LaunchConfigurationType" delegate\="org.eclipse.m2e.Maven2LaunchConfigurationType" mode\="debug" perspective\="org.eclipse.jdt.ui.JavaPerspective"/>\r\n<launchPerspective configurationType\="org.eclipse.m2e.Maven2LaunchConfigurationType" delegate\="org.eclipse.m2e.Maven2LaunchConfigurationType" mode\="run" perspective\="org.eclipse.mylyn.tasks.ui.perspectives.planning"/>\r\n</launchPerspectives>\r\n
+org.eclipse.debug.ui.switch_perspective_on_suspend=always
+org.eclipse.debug.ui.switch_to_perspective=always
+preferredTargets=default\:default|
